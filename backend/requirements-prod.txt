@@ -1,0 +1,8 @@
+# Production dependencies (PostgreSQL, Celery + Redis, S3)
+# Install on top of requirements.txt for Docker/production deployments
+-r requirements.txt
+asyncpg==0.30.0
+psycopg2-binary==2.9.10
+celery==5.4.0
+redis==5.2.0
+boto3==1.35.76
